@@ -22,4 +22,4 @@ public:
     void addFace(int v1, int v2, int v3);
 };
 
-#endif
+#endif // MESH_H
