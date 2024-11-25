@@ -1,4 +1,4 @@
-include "MeshGenerator.h"
+#include "MeshGenerator.h"
 
 Mesh MeshGenerator::generate3DMesh(const Mesh& mesh2D, float height) {
 Mesh mesh3D = mesh2D;
