@@ -23,7 +23,7 @@ The 3D Mesh Generator is a C++ project that converts 2D meshes or other models i
 
 1. Clone the repository:
     ```sh
-    git clone <https://github.com/sergyDwhiz/MeshGen>
+    git clone <https://github.com/sergyDwhiz/3DMeshGen.git>
     cd MeshGen
     ```
 
