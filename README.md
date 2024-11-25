@@ -53,13 +53,26 @@ The 3D Mesh Generator is a C++ project that converts 2D meshes or other models i
     f v1 v2 v3
     ...
     ```
+### Sample Input:
+v 0.0 0.0
+v 1.0 0.0
+v 1.0 1.0
+v 0.0 1.0
+f 1 2 3
+f 1 3 4
+### Alternatively,
+you can load a file containing a 2D Mesh
 
 2. Run the executable:
     ```sh
-    ./3DMeshGenerator
+    ./3DMeshGen
     ```
 
 3. The generated 3D mesh will be saved to `data/output_mesh.obj`.
+4. Visualize the output `python3 visualize_mesh.py`
+
+## Sample output:
+![alt text](data/Mesh.png)
 
 ## Contributing
 
@@ -72,4 +85,3 @@ This project is licensed under the MIT License - see the [`LICENSE`](command:_gi
 ## Acknowledgements
 
 - Inspired by various 3D modeling tools and libraries.
-- Special thanks to the open-source community for their invaluable resources and support.

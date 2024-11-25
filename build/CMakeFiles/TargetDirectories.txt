@@ -1,0 +1,3 @@
+/home/sergy/MeshGen/build/CMakeFiles/MeshGen.dir
+/home/sergy/MeshGen/build/CMakeFiles/edit_cache.dir
+/home/sergy/MeshGen/build/CMakeFiles/rebuild_cache.dir
